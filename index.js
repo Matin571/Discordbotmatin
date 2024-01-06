@@ -15,7 +15,7 @@ client.on('message', message => {
   }
 });
 
-``bot Siz !ping diyince bot pong der``
+//bot Siz !ping diyince bot pong der
 
 client.on('message', message => {
   if (message.content.startsWith('!ban')) {
